@@ -51,5 +51,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/container-app-job-playground:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/container-app-job-playground:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/azure-example-website:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/azure-example-website:${{ github.sha }}
